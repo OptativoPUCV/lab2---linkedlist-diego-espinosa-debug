@@ -72,3 +72,11 @@ test.c:(.text+0xc89): undefined reference to `nextList'
 collect2: error: ld returned 1 exit status
 Compilation failed
 18b108c
+Thu 24 Aug 2023 01:57:29 AM UTC: 
+/nix/store/039g378vc3pc3dvi9dzdlrd0i4q93qwf-binutils-2.39/bin/ld: /tmp/cc8r1kEA.o: in function `test_first_next':
+test.c:(.text+0xc89): undefined reference to `nextList'
+/nix/store/039g378vc3pc3dvi9dzdlrd0i4q93qwf-binutils-2.39/bin/ld: test.c:(.text+0xce4): undefined reference to `nextList'
+/nix/store/039g378vc3pc3dvi9dzdlrd0i4q93qwf-binutils-2.39/bin/ld: test.c:(.text+0xd15): undefined reference to `nextList'
+collect2: error: ld returned 1 exit status
+Compilation failed
+cc10524
