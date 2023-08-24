@@ -88,3 +88,9 @@ test.c:(.text+0xc89): undefined reference to `nextList'
 collect2: error: ld returned 1 exit status
 Compilation failed
 49663f3
+Thu 24 Aug 2023 01:57:58 AM UTC: 
+ list.c | 9 +++++----
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+ tests:  2|5
+total_score: 15/70
+75ce40c
