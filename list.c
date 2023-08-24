@@ -42,11 +42,11 @@ void * firstList(List * list) {
   return(list->head->data);
 }
 
-void * nextList(List * list) {
+/*void * nextList(List * list) {
   if (list->current == NULL)return NULL;
   list->current = list->current->next;
   return(list->current->data);
-}
+}*/
 
 void * lastList(List * list) {
     return NULL;

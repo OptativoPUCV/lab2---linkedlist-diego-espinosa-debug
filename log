@@ -62,3 +62,13 @@ Thu 24 Aug 2023 01:54:25 AM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 1a5aabd
+Thu 24 Aug 2023 01:57:20 AM UTC: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+/nix/store/039g378vc3pc3dvi9dzdlrd0i4q93qwf-binutils-2.39/bin/ld: /tmp/ccRvQQHM.o: in function `test_first_next':
+test.c:(.text+0xc89): undefined reference to `nextList'
+/nix/store/039g378vc3pc3dvi9dzdlrd0i4q93qwf-binutils-2.39/bin/ld: test.c:(.text+0xce4): undefined reference to `nextList'
+/nix/store/039g378vc3pc3dvi9dzdlrd0i4q93qwf-binutils-2.39/bin/ld: test.c:(.text+0xd15): undefined reference to `nextList'
+collect2: error: ld returned 1 exit status
+Compilation failed
+18b108c
