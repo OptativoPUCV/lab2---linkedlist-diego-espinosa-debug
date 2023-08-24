@@ -166,3 +166,8 @@ list.c:46:19: error: expected ‘;’ before ‘return’
 cc1: all warnings being treated as errors
 Compilation failed
 550d3cb
+Thu 24 Aug 2023 02:17:01 AM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+a9545c8
