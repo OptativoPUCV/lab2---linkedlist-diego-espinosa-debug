@@ -129,3 +129,8 @@ list.c:47:19: error: ‘lis’ undeclared (first use in this function); did you 
 list.c:47:19: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 fc90331
+Thu 24 Aug 2023 02:10:57 AM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+6f60002
