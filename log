@@ -117,3 +117,15 @@ list.c:47:19: error: ‘current’ undeclared (first use in this function); did 
 list.c:47:19: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 62f8e64
+Thu 24 Aug 2023 02:10:50 AM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘nextList’:
+list.c:47:19: error: ‘lis’ undeclared (first use in this function); did you mean ‘list’?
+   47 |   list->current = lis->current->next;
+      |                   ^~~
+      |                   list
+list.c:47:19: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+fc90331
