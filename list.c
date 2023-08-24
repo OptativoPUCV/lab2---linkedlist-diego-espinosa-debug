@@ -50,6 +50,9 @@ void * nextList(List * list) {
 }
 
 void * lastList(List * list) {
+  /*  if (!list->head)return NULL;
+  list->current = list->head;
+  return(list->head->data);*/
     return NULL;
 }
 
