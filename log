@@ -563,3 +563,14 @@ list.c:151:23: error: ‘dataEliminada’ is used uninitialized [-Werror=uniniti
 cc1: all warnings being treated as errors
 Compilation failed
 2cbe808
+Fri 25 Aug 2023 08:25:42 PM UTC: 
+ list.c | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:148:23: error: ‘dataEliminada’ may be used uninitialized in this function [-Werror=maybe-uninitialized]
+  148 |   return dataEliminada->data;
+      |          ~~~~~~~~~~~~~^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+828a43f
