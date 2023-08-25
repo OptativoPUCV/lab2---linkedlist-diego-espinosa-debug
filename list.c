@@ -127,7 +127,7 @@ void * popCurrent(List * list) {
     aux = prevList(list);
     aux->next = NULL;
     list->tail = aux;
-    free(list-current);
+    free(list->current);
   }else{
     aux = nextList(list);
     Node* auxPrev = prevList(list);

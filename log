@@ -331,3 +331,8 @@ list.c:130:15: error: ‘current’ undeclared (first use in this function); did
 list.c:130:15: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 a4237bc
+Fri 25 Aug 2023 07:03:19 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+8441b01
