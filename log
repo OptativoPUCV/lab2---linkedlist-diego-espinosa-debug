@@ -500,3 +500,26 @@ Fri 25 Aug 2023 08:08:40 PM UTC:
  tests:  11|1
 total_score: 55/70
 178947b
+Fri 25 Aug 2023 08:14:30 PM UTC: 
+ list.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:121:19: error: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Werror=int-conversion]
+  121 |     dataEliminada = list->current->data;
+      |                   ^
+list.c:130:19: error: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Werror=int-conversion]
+  130 |     dataEliminada = list->current->data;
+      |                   ^
+list.c:137:19: error: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Werror=int-conversion]
+  137 |     dataEliminada = list->current->data;
+      |                   ^
+list.c:145:19: error: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Werror=int-conversion]
+  145 |     dataEliminada = list->current->data;
+      |                   ^
+list.c:150:10: error: returning ‘int’ from a function with return type ‘void *’ makes pointer from integer without a cast [-Werror=int-conversion]
+  150 |   return dataEliminada;
+      |          ^~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+f691186
