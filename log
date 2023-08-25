@@ -552,3 +552,14 @@ Fri 25 Aug 2023 08:22:41 PM UTC:
  tests:  11|1
 total_score: 55/70
 b13eb0e
+Fri 25 Aug 2023 08:24:52 PM UTC: 
+ list.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+test.c: In function ‘popCurrent’:
+list.c:151:23: error: ‘dataEliminada’ is used uninitialized [-Werror=uninitialized]
+  151 |   return dataEliminada->data;
+      |          ~~~~~~~~~~~~~^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+2cbe808
