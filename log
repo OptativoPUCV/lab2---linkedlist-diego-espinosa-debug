@@ -585,3 +585,8 @@ list.c:147:23: error: ‘dataEliminada’ is used uninitialized [-Werror=uniniti
 cc1: all warnings being treated as errors
 Compilation failed
 c3efcee
+Fri 25 Aug 2023 08:26:39 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+9920e0c
