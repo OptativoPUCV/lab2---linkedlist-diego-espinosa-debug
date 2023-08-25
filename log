@@ -319,3 +319,15 @@ list.c:138:1: error: control reaches end of non-void function [-Werror=return-ty
 cc1: all warnings being treated as errors
 Compilation failed
 7ea2e50
+Fri 25 Aug 2023 07:03:00 PM UTC: 
+ list.c | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:130:15: error: ‘current’ undeclared (first use in this function); did you mean ‘popCurrent’?
+  130 |     free(list-current);
+      |               ^~~~~~~
+      |               popCurrent
+list.c:130:15: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+a4237bc
