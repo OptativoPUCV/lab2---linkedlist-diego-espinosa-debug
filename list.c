@@ -101,10 +101,10 @@ void pushCurrent(List * list, void * data) {
     nuevo->prev = list->current;
     
   }else{
-    
-    nuevo->prev = list->current;
-    nuevo->next = list->current->next;
-    list->current->next = nuevo;
+    Node* nuevo = createNode(data);
+    nuevo->next = list->current;
+    nuevo->prev = list->current->prev;
+    list->current->prev = nuevo;
   }
 }
 
