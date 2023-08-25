@@ -119,7 +119,6 @@ void * popCurrent(List * list) {
   Node* aux;
   Node* dataEliminada;
   if(list->head == list->tail){
-    dataEliminada = list->current;
     free(list->current);
     list->head = NULL;
     list->tail = NULL;
