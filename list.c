@@ -117,7 +117,7 @@ void * popBack(List * list) {
 
 void * popCurrent(List * list) { 
   Node* aux;
-  int dataEliminada = list->current->data;
+  //int dataEliminada = list->current->data;
   if(list->head == list->tail){
     free(list->current);
     list->head = NULL;
@@ -144,7 +144,7 @@ void * popCurrent(List * list) {
     list->current = list->head;
   }
   
-  return (void*) dataEliminada;
+  return list->current->data;
 }
 
 void cleanList(List * list) {

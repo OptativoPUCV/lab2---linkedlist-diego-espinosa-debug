@@ -641,3 +641,9 @@ list.c:147:10: error: cast to pointer from integer of different size [-Werror=in
 cc1: all warnings being treated as errors
 Compilation failed
 9a62f61
+Fri 25 Aug 2023 08:32:15 PM UTC: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  11|1
+total_score: 55/70
+0624aa8
