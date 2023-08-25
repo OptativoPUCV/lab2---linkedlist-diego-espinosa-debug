@@ -380,3 +380,15 @@ Fri 25 Aug 2023 07:13:51 PM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 7d17bd6
+Fri 25 Aug 2023 07:19:27 PM UTC: 
+ list.c | 13 +++++--------
+ 1 file changed, 5 insertions(+), 8 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:122:11: error: ‘current’ undeclared (first use in this function); did you mean ‘popCurrent’?
+  122 |     aux = current->next;
+      |           ^~~~~~~
+      |           popCurrent
+list.c:122:11: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+d55c791
