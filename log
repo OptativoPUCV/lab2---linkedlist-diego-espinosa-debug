@@ -275,3 +275,28 @@ Fri 25 Aug 2023 06:40:44 PM UTC:
  tests:  10|2
 total_score: 45/70
 731c40f
+Fri 25 Aug 2023 07:01:59 PM UTC: 
+ list.c | 20 +++++++++++++++++++-
+ 1 file changed, 19 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:128:15: error: ‘current’ undeclared (first use in this function); did you mean ‘popCurrent’?
+  128 |     free(list-current);
+      |               ^~~~~~~
+      |               popCurrent
+list.c:128:15: note: each undeclared identifier is reported only once for each function it appears in
+list.c:132:5: error: expected ‘,’ or ‘;’ before ‘aux’
+  132 |     aux->prev = list->current->prev;
+      |     ^~~
+list.c:130:11: error: unused variable ‘aux’ [-Werror=unused-variable]
+  130 |     Node* aux = nextList(list);
+      |           ^~~
+list.c:137:10: error: ‘aux’ undeclared (first use in this function)
+  137 |   return aux;
+      |          ^~~
+list.c:138:1: error: control reaches end of non-void function [-Werror=return-type]
+  138 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+b96ed5c
