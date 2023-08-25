@@ -88,11 +88,7 @@ void pushBack(List * list, void * data) {
 
 void pushCurrent(List * list, void * data) {
   
-  if(list->current == list->head)
-  {
-    pushFront(list,data);
-    
-  }else if(list->head == NULL){
+  if(list->head == NULL){
     pushFront(list,data);
     
   }else if(list->current == list->tail){
