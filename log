@@ -347,3 +347,9 @@ list.c:138:1: error: control reaches end of non-void function [-Werror=return-ty
 cc1: all warnings being treated as errors
 Compilation failed
 ceb1384
+Fri 25 Aug 2023 07:04:22 PM UTC: 
+ list.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+ tests:  10|2
+total_score: 45/70
+ba7acb0
